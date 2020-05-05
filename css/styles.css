@@ -1,13 +1,12 @@
-/* geral */
-
 html {
 	font-family: 'Open sans', 'sans-serif';
-	color: #373A3C;
+	color: #373A3C
 }
 
 a {
 	transition: .5s;
 }
+
 
 /* sidebar */
 
@@ -16,7 +15,7 @@ a {
 	height: 100%;
 	width: 300px;
 	background-color: #006599;
-	padding-top: 40px;
+	padding-top: 40px; 
 }
 
 #sidebar h1 {
@@ -54,10 +53,10 @@ a {
 	display: block;
 	position: relative;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; 
 }
 
-/* conteudo */
+/* conteúdo */
 
 .content {
 	position: absolute;
@@ -82,10 +81,10 @@ section {
 	padding-left: 50px;
 }
 
-/* bem vindo */
+/* bem vindo*/
 
 #sessao-bemvindo {
-	padding-left: 0;
+	padding-left: 0px;
 }
 
 .sessao-bemvindo-content {
@@ -103,7 +102,7 @@ section {
 	margin-top: 70px;
 }
 
-#sessao-bemvindo::after, #sessao-sobre::after {
+#sessao-bemvindo:after, #sessao-sobre:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -115,7 +114,7 @@ section {
 	height: 400px;
 	background-image: url('../img/banner3.jpg');
 	background-position: center;
-	background-size: cover;
+	background-image: cover;
 	float: left;
 }
 
@@ -137,7 +136,7 @@ section {
 	color: #FFF;
 	text-decoration: none;
 	padding: 20px 40px;
-	transition: .5s;
+	transition: .5px;
 	display: block;
 	width: 100px;
 	text-align: center;
@@ -164,7 +163,7 @@ section {
 	width: calc(100% - 400px);
 }
 
-/* galerias */
+/* gelerias */
 
 .banner-galeria {
 	background-position: center;
@@ -207,6 +206,7 @@ section {
 }
 
 .doces2-imgs {
+	height: 200px;
 	width: 32.3%;
 	margin-left: .5%;
 	margin-right: .5%;
@@ -227,6 +227,7 @@ section {
 }
 
 .doces3-imgs {
+	height: 200px;
 	width: 23.9%;
 	margin-left: .5%;
 	margin-right: .5%;
@@ -250,7 +251,7 @@ section {
 	margin-right: 0;
 }
 
-/* contato */
+/*contato */
 
 #form-contato {
 	width: 500px;
@@ -272,7 +273,7 @@ section {
 
 #form-contato textarea {
 	height: 150px;
-}
+} 
 
 #form-contato ::placeholder {
 	color: #2790C6;
